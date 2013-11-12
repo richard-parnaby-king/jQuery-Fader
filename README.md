@@ -39,3 +39,7 @@ Controls when to start fadeing the next list item
 ```javascript
 $('ul').fader({delay:1000});
 ```
+
+## Example
+
+<a href="http://richard.parnaby-king.co.uk/examples/jquery-fader/">http://richard.parnaby-king.co.uk/examples/jquery-fader/</a>
