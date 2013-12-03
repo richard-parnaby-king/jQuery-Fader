@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Jquery-fader by richard-parnaby-king</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/richard-parnaby-king/jQuery-Fader">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Jquery-fader</h1>
+            <h2>Simple plugin to fade, in sequence, the list items of the selected (un)ordered list</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/richard-parnaby-king/jQuery-Fader/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/richard-parnaby-king/jQuery-Fader/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a name="jquery-fader" class="anchor" href="#jquery-fader"><span class="octicon octicon-link"></span></a>jQuery-Fader</h1>
+
+<p>Simple plugin to fade, in sequence, the list items of the selected (un)ordered list</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Include script <em>after</em> the jQuery library (unless you are packaging scripts somehow else):</p>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/path/to/jquery.fader.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<p><strong>Do not include the script directly from GitHub (<a href="http://raw.github.com/...">http://raw.github.com/...</a>).</strong> The file is being served as text/plain and as such being blocked
+in Internet Explorer on Windows 7 for instance (because of the wrong MIME type). Bottom line: GitHub is not a CDN.</p>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'ul'</span><span class="p">).</span><span class="nx">fader</span><span class="p">();</span>
+</pre></div>
+
+<h3>
+<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h3>
+
+<p>This plugin comes with two options; Speed and Delay</p>
+
+<h4>
+<a name="speed" class="anchor" href="#speed"><span class="octicon octicon-link"></span></a>Speed</h4>
+
+<p>Controls how fast the fade animation takes in milliseconds</p>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'ul'</span><span class="p">).</span><span class="nx">fader</span><span class="p">({</span><span class="nx">speed</span><span class="o">:</span><span class="mi">1000</span><span class="p">});</span>
+</pre></div>
+
+<h4>
+<a name="delay" class="anchor" href="#delay"><span class="octicon octicon-link"></span></a>Delay</h4>
+
+<p>Controls when to start fadeing the next list item</p>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'ul'</span><span class="p">).</span><span class="nx">fader</span><span class="p">({</span><span class="nx">delay</span><span class="o">:</span><span class="mi">1000</span><span class="p">});</span>
+</pre></div>
+
+<h2>
+<a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h2>
+
+<p><a href="http://richard.parnaby-king.co.uk/examples/jquery-fader/"></a><a href="http://richard.parnaby-king.co.uk/examples/jquery-fader/">http://richard.parnaby-king.co.uk/examples/jquery-fader/</a></p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/richard-parnaby-king">richard-parnaby-king</a> can be found on <a href="https://github.com/richard-parnaby-king/jQuery-Fader">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
